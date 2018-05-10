@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "740873887871",
+    "firebase_url": "https://datademo-32d86.firebaseio.com",
+    "project_id": "datademo-32d86",
+    "storage_bucket": "datademo-32d86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740873887871:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740873887871-0tdkv5hek9ib2taleqnao14jim8ck3de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "8c473e7c6190048c9c35a2f217129f20d8ff733b"
+          }
+        },
+        {
+          "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByD7Bkk-NZwUDntMyJuc3CtiOjIGh6MUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740873887871:android:23b347efc0b22587",
+        "android_client_info": {
+          "package_name": "com.tomasGiro.dataDemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByD7Bkk-NZwUDntMyJuc3CtiOjIGh6MUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740873887871:android:8130a202314e0653",
+        "android_client_info": {
+          "package_name": "giro.tomas.com.appdrawrer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740873887871-m4pvsbd4bqrb6t0435ribibqf12et1t6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "giro.tomas.com.appdrawrer",
+            "certificate_hash": "8c473e7c6190048c9c35a2f217129f20d8ff733b"
+          }
+        },
+        {
+          "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByD7Bkk-NZwUDntMyJuc3CtiOjIGh6MUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740873887871:android:9e7b7f91ae900c27",
+        "android_client_info": {
+          "package_name": "giro.tomas.com.googlemaptracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740873887871-i6rm0h2g4b7dlo75ot7ohdmg35qs68e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "giro.tomas.com.googlemaptracker",
+            "certificate_hash": "8c473e7c6190048c9c35a2f217129f20d8ff733b"
+          }
+        },
+        {
+          "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByD7Bkk-NZwUDntMyJuc3CtiOjIGh6MUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740873887871-2q01hjv78r0jje1c77hhsuk8ou1lli2j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
