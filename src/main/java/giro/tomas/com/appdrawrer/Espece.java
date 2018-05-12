@@ -17,10 +17,12 @@ import java.util.regex.Pattern;
 public class Espece {
     private String nom;
     private static final String TAG = "Espece";
+    private String imageUrl;
 
-    public Espece(String nom, String nomLatin) {
+    public Espece(String nom, String nomLatin, String imageUrl) {
         this.nom = nom;
         this.nomLatin = nomLatin;
+        this.imageUrl = imageUrl;
     }
 
     private String nomLatin;
@@ -38,11 +40,15 @@ public class Espece {
 
     @Override
     public String toString() {
-
         return "Espece{" +
                 "nom='" + nom + '\'' +
+                ", imageUrl='" + imageUrl + '\'' +
                 ", nomLatin='" + nomLatin + '\'' +
                 '}';
+    }
+
+    public String getImageUrl() {
+        return imageUrl;
     }
 
     /**
@@ -75,7 +81,7 @@ public class Espece {
             for(int i=0;i<5;i++){
                 Matcher matcher= pattern.matcher(classes.getString(i));
                 if(matcher.matches()){
-                    Espece espece= new Espece(matcher.group(1),matcher.group(2));
+                    Espece espece= new Espece(matcher.group(1),matcher.group(2),"");
                     especes.add(espece);
                     Log.i(TAG, "parser: matcher matched:"+espece.toString());
                 }

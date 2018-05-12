@@ -1,23 +1,14 @@
-package giro.tomas.com.appdrawrer;
+package giro.tomas.com.appdrawrer.addingPhoto;
 
 import android.content.Intent;
-import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.net.Uri;
-import android.os.AsyncTask;
-import android.os.Environment;
-import android.os.ParcelFileDescriptor;
-import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -38,17 +29,11 @@ import com.google.firebase.storage.UploadTask;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
-import java.io.File;
-import java.io.FileDescriptor;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
 import java.util.Random;
 
-import giro.tomas.com.appdrawrer.MyPicturesGallery.GalleryAdapter;
+import giro.tomas.com.appdrawrer.AsyncLocationFinder;
+import giro.tomas.com.appdrawrer.IdentificationAsyncTask;
+import giro.tomas.com.appdrawrer.R;
 
 public class AddingPhoto extends AppCompatActivity {
     private GPSTracker.GPSTracker gpsTracker;
@@ -76,7 +61,7 @@ public class AddingPhoto extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adding_photo);
+        setContentView(R.layout.activity_adding_photo2);
         selectionImage= (Button) findViewById(R.id.selection_image);
         descriptionPhoto=(EditText) findViewById(R.id.description_photo);
         boutonLocalisation= (Button) findViewById(R.id.bouton_localisation);
@@ -118,9 +103,7 @@ public class AddingPhoto extends AppCompatActivity {
         random= new Random();
 
         databaseReference= FirebaseDatabase.getInstance().getReference("photos");
-        especesReconnuesAdapter.add(new Espece("lkjlkj","lkjk"));
-        especesReconnuesAdapter.add(new Espece("lkjlkj","lkjk"));
-        especesReconnuesAdapter.add(new Espece("lkjlkj","lkjk"));
+
     }
     public void selectionerImageOnClick(View v){
         imageView.setVisibility(View.GONE);

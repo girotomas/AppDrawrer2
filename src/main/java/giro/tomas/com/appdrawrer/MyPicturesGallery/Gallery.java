@@ -1,8 +1,6 @@
 package giro.tomas.com.appdrawrer.MyPicturesGallery;
 
-import android.app.IntentService;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.GridLayoutManager;
@@ -17,17 +15,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
 
-import java.util.Random;
-
-import giro.tomas.com.appdrawrer.AddingPhoto;
-import giro.tomas.com.appdrawrer.Picture;
+import giro.tomas.com.appdrawrer.addingPhoto.AddingPhoto;
 import giro.tomas.com.appdrawrer.R;
 import giro.tomas.com.appdrawrer.Settings.SettingsActivity;
 

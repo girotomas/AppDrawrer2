@@ -32,10 +32,11 @@
         <activity
             android:name=".Settings.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name=".AddingPhoto"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label="Ajouter une photo... ">
-            </activity>
+        <activity
+            android:name=".addingPhoto.AddingPhoto"
+            android:label="Ajouter une photo... "
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".addingPhoto.AddingPhoto2"></activity>
     </application>
 
 </manifest>
